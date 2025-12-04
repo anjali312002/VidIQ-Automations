@@ -1,10 +1,9 @@
-// ------------ VidIQ + Google Sheets + Google Docs Automation ------------
-
+  VidIQ + Google Sheets + Google Docs Automation
 A Node.js automation tool that reads keywords from Google Sheets, scrapes VidIQ data using Puppeteer, writes results back into Google Sheets, and also appends formatted output into Google Docs.
 
 This project follows the exact requirements of the VidIQ automation assignment.
 
-✅ Features
+ Features
 
 Reads keywords and VidIQ URLs from a Google Sheet
 
@@ -16,7 +15,7 @@ Reads keywords and VidIQ URLs from a Google Sheet
 6. Fully modular code
 7. Uses only Google APIs (no external AI tools)
 
-📁 Project Structure
+ Project Structure
 
 project/
 │── server.js # Main entry point
@@ -36,7 +35,7 @@ project/
 5. Google Service Account
 6. dotenv
 
-🔑 Prerequisites
+ Prerequisites
 
 1. Google Cloud Project
 
@@ -60,7 +59,7 @@ Share both with your service account email:
 
 your-service-account@project-id.iam.gserviceaccount.com
 
-🔐 Environment Variables Setup
+ Environment Variables Setup
 
 Create a .env file:
 
@@ -76,7 +75,7 @@ VIDIQ_PASS=your_vidiq_password
 Important:
 private_key must use \n instead of real line breaks.
 
-📥 Install Dependencies
+ Install Dependencies
 
 Run:
 
@@ -86,7 +85,7 @@ or manually:
 
 npm install puppeteer googleapis dotenv
 
-🎯 How the Script Works
+ How the Script Works
 Step 1: Reads all rows from Google Sheets
 Step 2: For each row:
 
@@ -99,5 +98,5 @@ Step 2: For each row:
 - Write scraped data back to sheet
 - Append a formatted line into Google Doc
 
-▶️ Run the Project
+ Run the Project
 node server.js
