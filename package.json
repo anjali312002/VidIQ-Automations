@@ -1,0 +1,19 @@
+{
+  "name": "node.js-automation-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "docs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "googleapis": "^167.0.0",
+    "puppeteer": "^24.32.0"
+  }
+}
